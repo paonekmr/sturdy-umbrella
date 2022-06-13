@@ -1,1 +1,14 @@
 Instructions
+Execution Cycle
+Fetch
+An instruction, stored in the memory, is fetched into the control unit by supplying the memory with the address of the instruction.
+Decode
+The control unit decodes the instruction in order to find the sequence of operation necessary to execute it.
+
+Memory
+Any data necessary for an instruction is fetched from the memory by the control unit and stored in the datapath.
+
+Execute
+The operation is performed within the datapath.
+
+Write
